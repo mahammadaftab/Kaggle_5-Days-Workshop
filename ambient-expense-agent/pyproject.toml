@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ambient-expense-agent"
+version = "0.1.0"
+description = "Ambient expense-approval workflow agent"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-adk = ">=2.2.0"
+fastapi = "*"
+uvicorn = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
